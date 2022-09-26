@@ -1,6 +1,5 @@
 /* Tworzenie bazy*/
-DROP DATABASE IF EXISTS muzyka_1;
-CREATE DATABASE muzyka_1;
+CREATE OR REPLACE DATABASE muzyka_1;
 USE muzyka_1;
 /* Tworzenie tabel*/
 CREATE TABLE artysta
