@@ -129,7 +129,7 @@ INSERT INTO utwor VALUES (null, 'Tonight I\ll Be Staying Here With You', '00:03:
 INSERT INTO utwor VALUES (null, 'Let\s Stick Together', '00:03:09', 2);
 INSERT INTO utwor VALUES (null, 'Somewhere I Belong', '00:03:33', 9);
 INSERT INTO utwor VALUES (null, 'Lying from You', '00:02:54', 9);
-INSERT INTO utwor VALUES (null, 'Hit the Floor', '00:02:44', 9)
+INSERT INTO utwor VALUES (null, 'Hit the Floor', '00:02:44', 9);
 INSERT INTO utwor VALUES (null, 'Easier to Run', '00:03:24', 9);
 INSERT INTO utwor VALUES (null, 'Faint', '00:02:42', 9);
 INSERT INTO utwor VALUES (null, 'Figure.09', '00:03:17', 9);
