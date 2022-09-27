@@ -10,7 +10,6 @@ CREATE TABLE artysta
 		PRIMARY KEY (id_artysty)
 )
 Engine=InnoDB DEFAULT CHARACTER SET 'utf8' COLLATE 'utf8_polish_ci';
-	CREATE INDEX artysta_idx1 ON nazwa_artysty;
 
 CREATE TABLE wydawca
 (
@@ -25,7 +24,6 @@ CREATE TABLE wydawca
 		PRIMARY KEY (id_wydawcy)
 )
 Engine=InnoDB DEFAULT CHARACTER SET 'utf8' COLLATE 'utf8_polish_ci';
-	CREATE INDEX wydawca_idx1 ON nazwa_wydawcy;
 
 CREATE TABLE plyta
 (
@@ -58,10 +56,6 @@ CREATE TABLE plyta
 )
 Engine=InnoDB DEFAULT CHARACTER SET 'utf8' COLLATE 'utf8_polish_ci';
 
-CREATE INDEX plyta_idx1 ON tytul;
-CREATE INDEX plyta_idx2 ON rodzaj;
-CREATE INDEX plyta_idx3 ON cena;
-
 CREATE TABLE utwor
 (
 	id_utworu INT UNSIGNED AUTO_INCREMENT,
@@ -74,9 +68,6 @@ CREATE TABLE utwor
 			REFERENCES plyta(id_plyty)
 )
 Engine=InnoDB DEFAULT CHARACTER SET 'utf8' COLLATE 'utf8_polish_ci';
-CREATE INDEX utwor_idx1 ON tytul_utworu;
-
-
 
 /* Wprowadzenie danych*/
 
